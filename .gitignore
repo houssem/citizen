@@ -1,0 +1,9 @@
+###Project files###
+build-tools/*
+c4c-integration/*
+hybris-Mobile-Apps-SDK/*
+hybris-ems/*
+hybris-sbg/*
+hybris/*
+installer/*
+licenses/*
