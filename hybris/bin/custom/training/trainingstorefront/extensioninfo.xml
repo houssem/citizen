@@ -11,9 +11,12 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
 
 	<extension abstractclassprefix="Generated" classprefix="TrainingStorefront" name="trainingstorefront" usemaven="false">		
-        <requires-extension name="assistedservicestorefront"/>
-<requires-extension name="smarteditaddon"/>
+        
+
 <requires-extension name="publicsectoracceleratoraddon"/>
+<requires-extension name="assistedservicestorefront"/>
+<requires-extension name="smarteditaddon"/>
+
 <requires-extension name="billaddon"/>
 <requires-extension name="relationshipaddon"/>
 <requires-extension name="xyformsstorefrontcommons"/>

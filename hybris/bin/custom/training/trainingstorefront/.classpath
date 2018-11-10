@@ -21,8 +21,11 @@
 <classpathentry combineaccessrules="false" kind="src" path="/xyformsstorefrontcommons"/>
 <classpathentry combineaccessrules="false" kind="src" path="/relationshipaddon"/>
 <classpathentry combineaccessrules="false" kind="src" path="/billaddon"/>
-<classpathentry combineaccessrules="false" kind="src" path="/publicsectoracceleratoraddon"/>
+
 <classpathentry combineaccessrules="false" kind="src" path="/smarteditaddon"/>
 <classpathentry combineaccessrules="false" kind="src" path="/assistedservicestorefront"/>
+<classpathentry combineaccessrules="false" kind="src" path="/publicsectoracceleratoraddon"/>
+
+
 				
 </classpath>
