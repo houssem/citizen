@@ -7,13 +7,17 @@
 
     <extension name='commercesearchbackoffice' />
     <extension name='commerceservicesbackoffice' />
+
     <extension name='solrfacetsearchbackoffice' />
     <extension name='solrserver' />
+
     <extension name='configurablebundlecockpits' />
     <extension name='configurablebundlefacades' />
     <extension name='configurablebundleservices' />
-    <extension name='assistedservicestorefront' />
-    <extension name='assistedserviceatddtests' />
+
+    <!--<extension name='assistedservicestorefront' />-->
+    <!--<extension name='assistedserviceatddtests' />-->
+
     <extension name='smarteditaddon' />
     <extension name='smarteditwebservices' />
     <extension name='cmssmartedit' />
@@ -30,34 +34,40 @@
     <extension name='xyformscommercefacades' />
     <extension name='xyformscommercecockpits' />
 
+    <!--
     <extension name='datahubadapter' />
     <extension name='datahubbackoffice' />
     <extension name='datahubclient' />
+  -->
+
     <extension name='publicsectoracceleratoraddon' />
     <extension name='publicsectorservices' />
     <extension name='publicsectorstore' />
-    <extension name='publicsectoratddtests' />
+    <!--<extension name='publicsectoratddtests' />-->
     <extension name='publicsectorcockpits' />
     <extension name='publicsectorfacades' />
     <extension name='publicsectorfulfilment' />
     <extension name='publicsectorconsignmentexchange' />
     <extension name='publicsectordocmanagement' />
     <extension name='publicsectordocmanagementexchange' />
+
     <extension name='relationshipexchange' />
+
     <extension name='publicsectorbackoffice' />
     <extension name='xyformscommercebackoffice' />
-    <extension name='xyformscommerceatddtests' />
+    <!--<extension name='xyformscommerceatddtests' />-->
+
     <extension name='billservices' />
     <extension name='billaddon' />
     <extension name='billfacades' />
     <extension name='billbackoffice' />
-    <extension name='billatddtests' />
+    <!--<extension name='billatddtests' />-->
     <extension name='billexchange' />
     <extension name='relationshipservices' />
     <extension name='relationshipaddon' />
     <extension name='relationshipbackoffice' />
     <extension name='relationshipfacades' />
-    <extension name='relationshipatddtests' />
+    <!--<extension name='relationshipatddtests' />-->
     <extension name='auditreportservices' />
 
     <extension name='ycommercewebservices' />
@@ -65,6 +75,7 @@
     <extension name='trainingcockpits' />
     <extension name='traininginitialdata' />
     <extension name='trainingstorefront' />
+
     <!--<extension name='trainingfulfilmentprocess' />-->
 
   </extensions>

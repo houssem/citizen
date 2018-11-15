@@ -16,9 +16,17 @@
 			href="${contextPath}/wro/addons_responsive.css" />
 	</c:when>
 	<c:otherwise>
+
 		<%-- Theme CSS files --%>
-		<link rel="stylesheet" type="text/css" media="all"
-			href="${themeResourcePath}/css/style.css" />
+		<c:choose>
+			<c:when test="${language eq 'ar'}" >
+				<link rel="stylesheet" type="text/css" media="all" href="${themeResourcePath}/css/style_ar.css" />
+			</c:when>
+			<c:otherwise>
+				<link rel="stylesheet" type="text/css" media="all" href="${themeResourcePath}/css/style.css" />
+			</c:otherwise>
+		</c:choose>
+
 		<%--  AddOn Common CSS files --%>
 		<c:forEach items="${addOnCommonCssPaths}" var="addOnCommonCss">
 			<link rel="stylesheet" type="text/css" media="all"

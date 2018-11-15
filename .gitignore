@@ -1,5 +1,18 @@
 ###Project files###
 
+# testclasses summary
+*-testclasses.xml
+*-webtestclasses.xml
+extensioninfo.xsd
+build.xml
+platformhome.properties
+bin/**/gensrc/*
+
+#Ignore jalo class
+#bin/custom/training/trainingcore/**/jalo/*
+
+*.class
+
 ###Project files###
 #Ignore all
 /*
@@ -11,12 +24,3 @@ hybris/*
 hybris/bin/*
 !hybris/bin/custom
 
-## Except
-#build-tools/*
-#c4c-integration/*
-#hybris-Mobile-Apps-SDK/*
-#hybris-ems/*
-#hybris-sbg/*
-
-#installer/*
-#licenses/*
